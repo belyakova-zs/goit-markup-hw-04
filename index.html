@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>ДЗ_3</title>
+        <title>ДЗ_4</title>
         <link rel="preconnect" href="https://fonts.googleapis.com"> <!--зачем нужны два первые линка с preconnect?--> 
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
         <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -28,15 +28,32 @@
                 </ul>
             </nav>      
 
+
                  <!-- Контакты в меню-->
+
+                 <!-- РАЗОБРАТЬСЯ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
                 <ul class="contacts">
-                    <li class="item"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                    <li class="item"><a href="tel:+380991111111" class="link">+38 096 111 11 11</a> </li>
-                </ul>             
+                    <li class="contacts-item link">                        
+                        <a href="mailto:info@devstudio.com" class="link"> info@devstudio.com</a>
+                       
+                        <svg class="button-icon">
+                            <use href="./images/svg/symbol-defs.svg#icon-envelope"></use>
+                        </svg>                                                      
+                    </li>
+
+                    <li class="contacts-item link">
+                        <a href="tel:+380991111111" class="link">+38 096 111 11 11</a> 
+
+                        <svg class="button-icon">
+                            <use href="./images/svg/symbol-defs.svg#icon-smartphone"></use>
+                        </svg> 
+                    </li>
+                </ul>  
+                <!-- РАЗОБРАТЬСЯ !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
             </div>
         </header>
         
-
         <!-- Уникальный контент страницы -->
         <main>
             <!-- Герой -->            
@@ -54,24 +71,24 @@
                 <div class="container">
                     <h2 class="visually-hidden">Преимущества</h2>
                     <ul>
-                        <li class="features">
+                        <li class="features icon-antenna">
                             <h3 class="feature-list-text">Внимание к деталям</h3>
                             <p class="feature-list-description">Идейные соображения, а также начало повседневной работы по
                                 формированию
                                 позиции</p>
                         </li>
-                        <li class="features">
+                        <li class="features icon-clock">
                             <h3 class="feature-list-text">Пунктуальность</h3>
                             <p class="feature-list-description"> Задача организации, в особенности же рамки и место обучения кадров
                                 влечет
                                 за собой.</p>
                         </li>
-                        <li class="features">
+                        <li class="features icon-diagram">
                             <h3 class="feature-list-text">Планирование</h3>
                             <p class="feature-list-description">Равным образом консультация с широким активом в значительной степени
                                 обуславливает.</p>
                         </li>
-                        <li class="features">
+                        <li class="features icon-asrtonaut">
                             <h3 class="feature-list-text">Современные технологии</h3>
                             <p class="feature-list-description">Значимость этих проблем настолько очевидна, что реализация плановых
                                 заданий.
@@ -103,6 +120,7 @@
                             <div class="team-container">
                                 <h3 class="team-title">Игорь Демьяненко</h3>
                                 <p class="section-description">Product Designer</p>
+
                             </div>
                         </li>
                         <li class="team-img">
@@ -110,6 +128,15 @@
                             <div class="team-container">
                                 <h3 class="team-title">Ольга Репина</h3>
                                 <p class="section-description">Frontend Developer</p>
+
+                                <ul class="team-network">                                    
+                                    <li class="team-network-insta"><a ></a></li>
+                                    <li class="team-network-twitter"><a ></a></li>
+                                    <li class="team-network-facebook"><a ></a></li>
+                                    <li class="team-network-in"><a ></a></li>
+                                </ul>
+
+
                             </div>
                         </li>
                         <li class="team-img">
