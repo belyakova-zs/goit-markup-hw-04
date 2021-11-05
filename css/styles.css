@@ -114,10 +114,6 @@ ul {
   display: flex;
 }
 
-.container-contacts {
-  margin-left: auto;
-}
-
 .site-nav {
   display: flex;
   margin-left: 93px;
@@ -165,6 +161,7 @@ ul {
 .contacts-item .link {
   /* width: 161px; */
   height: 16px;
+
   background-color: tomato;
 }
 
@@ -181,6 +178,7 @@ ul {
   border: 0;
   width: 16px;
   height: 12px;
+  color: black;
 
   fill: var(--icon-color);
 }
@@ -442,29 +440,6 @@ ul {
   text-align: center;
   vertical-align: top;
   letter-spacing: 0.03em;
-}
-
-.team-network {
-  display: inline-block;
-
-  width: 44px;
-  height: 44px;
-  background-repeat: no-repeat;
-  border: 0;
-  padding: 0;
-}
-
-.team-network-insta {
-  background-image: url(../images/svg/instagram.svg);
-}
-.team-network-twitter {
-  background-image: url(../images/svg/twitter.svg);
-}
-.team-network-facebook {
-  background-image: url(../images/svg/facebook.svg);
-}
-.team-network-in {
-  background-image: url(../images/svg/linkedin.svg);
 }
 
 /* Секция паддинги и марджины */
