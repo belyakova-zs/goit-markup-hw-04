@@ -12,9 +12,9 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --second-accent-color: #ffffff;
+  --second-white-color: #ffffff;
   --second-bg-color: #f5f4fa;
-  --primary-white-color: #2196f3;
+  --primary-accent-color: #2196f3;
   --icon-color: ##afb1b8;
 }
 
@@ -253,7 +253,7 @@ ul {
   margin-top: 0;
   margin-bottom: 30px;
 
-  color: var(--second-accent-color);
+  color: var(--second-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -272,7 +272,7 @@ ul {
 
   font-family: inherit;
   font-style: inherit;
-  color: var(--second-accent-color);
+  color: var(--second-white-color);
   background-color: var(--accent-color);
   font-size: 16px;
   line-height: 1.8;
@@ -460,6 +460,56 @@ ul {
   letter-spacing: 0.03em;
 }
 
+.team-icons {
+  margin: 0;
+  padding: 0;
+  margin-top: 16px;
+  margin-right: auto;
+  margin-left: auto;
+
+  width: 206px;
+  height: 44px;
+
+  /* outline: 1px solid red; */
+}
+
+.team-network-icons {
+  cursor: pointer;
+  /* outline: 1px solid red; */
+}
+
+.team-network-icons:not(:last-child) {
+  margin-right: 10px;
+}
+
+.team-icon-insta {
+  background-color: var(--primary-accent-color);
+  border-radius: 50%;
+
+  background-image: url(../images/svg/Ellipse-insta.svg);
+}
+
+.team-icon-instagram {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/svg/instagram.svg);
+}
+.team-icon-twitter {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/svg/twitter.svg);
+}
+.team-icon-facebook {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/svg/facebook.svg);
+}
+.team-icon-linkedin {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/svg/linkedin.svg);
+}
+
 /* ФУТЕР */
 
 .footer-container {
@@ -509,7 +559,7 @@ ul {
 
 .address-location {
   margin-top: 0;
-  color: var(--second-accent-color);
+  color: var(--second-white-color);
 }
 
 .address-location:not(:last-child) {
