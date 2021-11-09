@@ -164,7 +164,7 @@ ul {
   border: 0;
   margin-right: 10px;
 
-  fill: var(--primary-text-color);
+  fill: currentColor;
 }
 
 .link.icon-hov {
@@ -314,8 +314,6 @@ ul {
 }
 .icon-clock {
   justify-content: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
 }
 .icon-diagram {
   justify-content: center;
@@ -472,7 +470,7 @@ ul {
 }
 
 .team-list {
-  padding-right: 10px;
+  margin-right: 10px;
 }
 .team-list:nth-child(4n) {
   padding-right: 0;
